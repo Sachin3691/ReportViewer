@@ -1,0 +1,7 @@
+﻿@using ReportViewerForMvc;
+@using System.Web.Mvc;
+
+@if (ViewBag.ReportViewer != null)
+{
+    @Html.ReportViewer(ViewBag.ReportViewer as Microsoft.Reporting.WebForms.ReportViewer)
+}
